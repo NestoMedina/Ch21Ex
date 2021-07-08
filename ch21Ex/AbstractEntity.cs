@@ -10,8 +10,8 @@ namespace ch21Ex
     {
         public string OSName { get; set; }
         public string Brand { get; set; }
-        public static DateTime UpcomingUpdate = new (2021,09,07);
-        public static DateTime FutureUpdate = new (2022, 03, 08);
+        public DateTime UpcomingUpdate = new (2021,09,07);
+        public DateTime FutureUpdate = new (2022, 03, 08);
         public static List<int> IDList = new List<int>();
 
 
@@ -33,6 +33,7 @@ namespace ch21Ex
         }
 
         public abstract void IDTag();
+
 
     }
 }
